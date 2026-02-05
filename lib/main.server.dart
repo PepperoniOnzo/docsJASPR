@@ -9,6 +9,7 @@ import 'package:jaspr/server.dart';
 
 import 'package:jaspr_content/components/callout.dart';
 import 'package:jaspr_content/components/code_block.dart';
+import 'package:jaspr_content/components/file_tree.dart';
 import 'package:jaspr_content/components/github_button.dart';
 import 'package:jaspr_content/components/header.dart';
 import 'package:jaspr_content/components/image.dart';
@@ -47,6 +48,7 @@ void main() {
       ],
       components: [
         // The <Info> block and other callouts.
+        FileTree(),
         Callout(),
         // Adds syntax highlighting to code blocks.
         CodeBlock(),
@@ -83,6 +85,11 @@ void main() {
                 title: 'Content',
                 links: [
                   SidebarLink(text: "About", href: '/about'),
+                ],
+              ),
+              SidebarGroup(
+                links: [
+                  SidebarLink(text: "View Models", href: '/view_models/'),
                 ],
               ),
             ],

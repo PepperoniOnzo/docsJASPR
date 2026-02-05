@@ -7,6 +7,22 @@ This is the starting point for your brand new documentation site, powered by the
 
 ## Getting Started
 
+<FileTree>
+
+- lib/
+  - components/
+    - clicker.dart
+  - **main.dart** Highlighted file with comment
+- tool/
+- .gitignore
+- analysis_options.yaml
+- CHANGELOG.md
+- LICENSE 
+- package.yaml 
+- README.md This is a comment
+
+</FileTree>
+
 Here are a few things you can do to begin:
 
 *   Explore the features of `jaspr_content` inside `lib/main.server.dart`.

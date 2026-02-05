@@ -12,6 +12,7 @@ import 'package:jaspr_content/components/_internal/zoomable_image.dart'
     as _zoomable_image;
 import 'package:jaspr_content/components/callout.dart' as _callout;
 import 'package:jaspr_content/components/code_block.dart' as _code_block;
+import 'package:jaspr_content/components/file_tree.dart' as _file_tree;
 import 'package:jaspr_content/components/github_button.dart' as _github_button;
 import 'package:jaspr_content/components/image.dart' as _image;
 import 'package:jaspr_content/components/sidebar_toggle_button.dart'
@@ -63,6 +64,7 @@ ServerOptions get defaultServerOptions => ServerOptions(
     ..._zoomable_image.ZoomableImage.styles,
     ..._callout.Callout.styles,
     ..._code_block.CodeBlock.styles,
+    ..._file_tree.FileTree.styles,
     ..._github_button.GitHubButton.styles,
     ..._image.Image.styles,
     ..._theme_toggle.ThemeToggleState.styles,

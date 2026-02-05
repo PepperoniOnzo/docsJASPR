@@ -1,6 +1,7 @@
 # Site Configuration
 titleBase: DOCS
 favicon: favicon.ico
+base: "/docsJASPR"
 
 # Social media links
 social:
